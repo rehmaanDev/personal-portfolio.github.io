@@ -1,0 +1,520 @@
+.hidden {
+    display: none;
+}
+
+body {
+    background-color: #010e1b;
+}
+
+
+.container .home {
+    margin-top: 120px;
+    margin-left: 5%;
+    padding: 20px;
+}
+
+/* home heading name design */
+.container .home h2 a {
+    color: #dee2e6;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    text-decoration: none;
+}
+
+/* home paragraph design (1 line intro ) */
+.container .home p {
+    color: white;
+    line-height: 1.5;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+}
+
+/* nav div */
+.container .home .nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+/* nav list item  */
+.container .home .nav li {
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* list item font wagera */
+.container .home .nav a {
+    text-decoration: none;
+    color: #dee2e6;
+    text-transform: capitalize;
+    font-family: "Raleway", sans-serif;
+}
+
+.container .home .nav a.active {
+    color: #12d640;
+    border-bottom: solid 2px goldenrod;
+}
+
+/* list item hover */
+.container .home .nav a:hover {
+    color: #12d640;
+    border-bottom: solid 2px goldenrod;
+}
+
+.home i {
+    color: white;
+}
+
+/* icon font wale links */
+.home .links {
+    margin-top: 15px;
+    display: flex;
+
+}
+
+/* icon fonts ke liye a tag ki styling */
+.home .links a {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.home .links a:hover {
+    background: #1c7d32;
+}
+
+/* adding typewriter effect */
+.home .typing {
+    border-bottom: 2px solid #1c7d32;
+    border-right: 2px solid #ffc107;
+}
+
+
+.header {
+    display: flex;
+    background-color: #09203a;
+    align-items: center;
+    /* width: 100%; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.header .navv {
+    flex: 70%;
+}
+
+.header h2 {
+    flex: 40%;
+}
+
+.header h2 a{
+    color: #dee2e6;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.navv ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navv li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navv li a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+
+}
+
+.navv li a:hover {
+    color: #12d640;
+    border-bottom: solid 2px goldenrod;
+}
+
+.navv li .active {
+    color: #12d640;
+    border-bottom: solid 2px goldenrod;
+}
+
+/* *************************************************************************************************** */
+.about {
+    position: absolute;
+    top: 80px;
+}
+
+.about .row {
+    margin-bottom: 30px;
+}
+
+.about h3 {
+    color: #dee2e6;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    border-bottom: 2px solid #dee2e6;
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+.about-content {
+    display: flex;
+}
+
+.about-content .card {
+    color: #fff;
+    flex: 50%;
+    margin:20px;
+}
+
+.about-content img {
+    height: 250px;
+    margin-left: 80px;
+}
+
+.about-content .card div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-content .card div li {
+    list-style-type: none;
+    flex: 40%;
+    padding-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.about-content .card div li i {
+    color: #12d640;
+
+}
+
+.about-content .card p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+}
+
+.interest-content {
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.interest-content .box {
+    color: #fff;
+    flex: 15%;
+    display: flex;
+    margin-right: 25px;
+    height: 80px;
+    margin-top:10px;
+    background-color: #09203a;
+}
+
+.interest-content .box:hover {
+    background-color: #042b56eb;
+}
+
+.interest-content .box div {
+    text-align: center;
+}
+
+/* ********************************education styling****************************************************** */
+.education {
+    position: absolute;
+    top: 80px;
+}
+
+.education .row>h3 {
+    color: #dee2e6;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    border-bottom: 2px solid #dee2e6;
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+.education-content {
+    display: flex;
+}
+
+.education-content .card {
+    background-color: #09203a;
+    margin-left: 80px;
+    padding: 10px;
+}
+
+.education-content .card img {
+    height: 200px;
+}
+
+.education-content .card:hover {
+    background-color: #042b56eb;
+}
+
+.education-content h3 {
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-style: italic;
+}
+
+.education .row {
+    margin-bottom: 60px;
+}
+
+/* ****************************************************************************************************** */
+
+.skills {
+    position: absolute;
+    top: 80px;
+}
+
+.skills h2 {
+    color: #dee2e6;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    border-bottom: 2px solid #dee2e6;
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+.skills .row {
+    /* background-color: #fff; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills .card {
+    flex: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .card img {
+    width: 80%;
+    height: 150px;
+    border-radius: 15px;
+}
+
+/* ******************************************************************************************* */
+.contact {
+    position: relative;
+    top: 80px;
+    display : flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* display: none; */
+}
+
+.contact .card{
+    flex: 0 0 35%;
+    color : #fff;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left : 10px;
+    margin-right: 10px;
+    display: flex;
+    background-color: #09203a;
+    align-items: center;
+}
+
+.contact .card .logo{
+    flex: 0 0 20%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.contact .card .logo i{
+    color :gold;
+}
+
+.contact .card .content{
+    flex: 0 0 60%;
+}
+
+.contact .card .content p{
+    font-size: 20px;
+}
+
+.hidden{
+    display:none;
+}
+
+
+/* ***************************************************************************************************** */
+.projects {
+    position: relative;
+    top: 80px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.projects .card{
+    color : #fff;
+    flex: 0 0 40%;
+    margin-left : 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #09203a;
+
+}
+
+.projects .card img{
+    width: auto;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.projects .card li{
+    list-style: none;
+    line-height: 25px;
+    margin-left : 10px;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 8px;
+}
+
+.projects .card h3{
+ font-family: 'Raleway', sans-serif;
+ color:#dee2e6;
+}
+
+.hidden{
+    display: none;
+}
+
+.projects .card li a {
+    color : black;
+    text-decoration: none;
+    background-color:#12d640;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.projects .card li a:hover{
+    background-color: lightgreen;
+}
+
+@media (max-width: 1230px) {
+    .navv{
+        display:none;
+        /* now add a nav bar button at the top */
+    }
+
+    .header h2{
+        outline: 2px solid red;
+    }
+
+    .about-content .card div {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-content .card p{
+        margin-top: 0px;
+    }
+    .about-content .card div li{
+        margin-top:10px;
+    }
+
+    .interest-content{
+        flex-direction: row;
+    }
+
+    .interest-content .box{
+        flex: 0 0 40%;
+        padding: 5px;
+    }
+
+    .interest-content .box h2{
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    /* new */
+    /* old */
+    /* .skills .row .card{
+        flex: 40%;  
+    } */
+
+    .skills .card img {
+        height: 120px;
+        border-radius: 10px;
+    }
+    
+}
+
+
+
+
+@media (max-width : 1208px) {
+    .skills .card img {
+        height: 130px;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width : 1028px) {
+    .skills .card img {
+        height: 110px;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width : 735px) {
+    .skills .card img {
+        height: 90px;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 850px) {
+    .projects{
+        flex-direction: column;
+        align-content: center;
+        /* outline: 2px solid red; */
+    }
+    .projects .card{
+        width : 40%;
+        margin:auto;
+        margin-top: 20px;
+        /* outline: 2px solid red; */
+    }
+}
+
+
