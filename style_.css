@@ -436,11 +436,6 @@ body {
         display:none;
         /* now add a nav bar button at the top */
     }
-
-    .header h2{
-        outline: 2px solid red;
-    }
-
     .about-content .card div {
         display: flex;
         flex-direction: column;
